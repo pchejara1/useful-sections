@@ -9,7 +9,7 @@ if(screen.width>990){
  }
  if(screen.width > 700 && screen.width < 990){
     itemDisplay = document.getElementsByClassName("slider-container")[0].getAttribute("item-display-tab");
-    margin = itemDisplay*6.8;
+    margin = itemDisplay*10;
  }
  if(screen.width > 200 && screen.width < 700){
     itemDisplay = document.getElementsByClassName("slider-container")[0].getAttribute("item-display-mobile");
